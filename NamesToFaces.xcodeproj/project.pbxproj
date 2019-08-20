@@ -13,6 +13,8 @@
 		AB9E8E6C230C190100BDC69A /* NamesToFaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB9E8E6A230C190100BDC69A /* NamesToFaces.xcdatamodeld */; };
 		AB9E8E6E230C190400BDC69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9E8E6D230C190400BDC69A /* Assets.xcassets */; };
 		AB9E8E71230C190400BDC69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9E8E6F230C190400BDC69A /* LaunchScreen.storyboard */; };
+		AB9E8E79230C199000BDC69A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E8E78230C199000BDC69A /* CollectionViewCell.swift */; };
+		AB9E8E7B230C1DE700BDC69A /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E8E7A230C1DE700BDC69A /* People.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AB9E8E6D230C190400BDC69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB9E8E70230C190400BDC69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB9E8E72230C190400BDC69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9E8E78230C199000BDC69A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AB9E8E7A230C1DE700BDC69A /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				AB9E8E63230C190100BDC69A /* AppDelegate.swift */,
 				AB9E8E65230C190100BDC69A /* ViewController.swift */,
+				AB9E8E7A230C1DE700BDC69A /* People.swift */,
+				AB9E8E78230C199000BDC69A /* CollectionViewCell.swift */,
 				AB9E8E67230C190100BDC69A /* Main.storyboard */,
 				AB9E8E6D230C190400BDC69A /* Assets.xcassets */,
 				AB9E8E6F230C190400BDC69A /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				AB9E8E66230C190100BDC69A /* ViewController.swift in Sources */,
 				AB9E8E6C230C190100BDC69A /* NamesToFaces.xcdatamodeld in Sources */,
+				AB9E8E79230C199000BDC69A /* CollectionViewCell.swift in Sources */,
 				AB9E8E64230C190100BDC69A /* AppDelegate.swift in Sources */,
+				AB9E8E7B230C1DE700BDC69A /* People.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
